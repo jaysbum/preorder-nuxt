@@ -3,7 +3,7 @@ export default {
   ssr: true,
 
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'server',
+  target: 'static',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -39,5 +39,10 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+  },
+
+  server: {
+     port: 8080, // default: 3000
+     host: '0.0.0.0' // default: localhost
   }
 }
