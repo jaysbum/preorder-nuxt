@@ -112,7 +112,7 @@ export default {
     baseImagePath : "http://128.199.249.40:1337",
     baseApiPath : "http://app.api-taobao.com"
   },
-  loading: '~/components/loading.vue'
+  loading: '~/components/loading.vue',
 
   server: {
      port: 8080, // default: 3000
