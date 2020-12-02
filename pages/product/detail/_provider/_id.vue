@@ -23,7 +23,7 @@
               <span v-if="key!=item.sku.length-1 || key==0">
                 <input type="radio" @change="checkSku(key,opt,option.group)" :id="optionId(key,idx)" class="option-input" :name="radioGroup(key)" :data-group="option.group" :data-group-original="option.groupOriginal" :data-image="opt.image" :data-value="opt.label" :data-value-original="opt.labelOriginal">
                 <label :for="optionId(key,idx)">
-                  <img :src="opt.image" class="option-image" v-if="opt.isImage"> {{opt.label}}
+                  <img :src="opt.image" class="option-image" v-if="opt.isImage" style="margin-right:5px;"> {{opt.label}}
                 </label>
               </span>
               <div :class="disabledClass" style="border-bottom:1px dotted #ccc;padding:10px; 0px; 10px; 0px;" v-else>

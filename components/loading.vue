@@ -2,7 +2,7 @@
   <div v-if="loading" class="loading-page">
     <img src="/assets/img/logo.png" alt="">
     <p style="z-index:10001;color:#fff;">กำลังไปยังหน้าที่คุณเรียก</p>
-    <img src="/assets/loading/loading.gif">
+    <!--<img src="/assets/loading/loading.gif">-->
   </div>
 </template>
 
