@@ -76,7 +76,7 @@ export default {
   ],
 
   axios: {
-    baseURL: "http://128.199.249.40:1337"
+    baseURL: "http://backend.uget.co.th"
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
