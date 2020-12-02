@@ -107,7 +107,7 @@ export default {
      }
   },
   publicRuntimeConfig: {
-    baseImagePath : "http://128.199.249.40:1337",
+    baseImagePath : "http://backend.uget.co.th",
     baseApiPath : "http://app.api-taobao.com"
   },
   loading: '~/components/loading.vue',
