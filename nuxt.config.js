@@ -108,7 +108,7 @@ export default {
   },
   publicRuntimeConfig: {
     baseImagePath : "https://backend.uget.co.th",
-    baseApiPath : "https://node.api-taobao.com"
+    baseApiPath : "https://cors-anywhere.herokuapp.com/https://node.api-taobao.com"
   },
   loading: '~/components/loading.vue',
 
